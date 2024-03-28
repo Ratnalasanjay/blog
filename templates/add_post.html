@@ -1,0 +1,47 @@
+[3:06 pm, 27/03/2024] Karri Na Mad ☻️☻️(Gurram): <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       form {
+        padding: 30px;color:red;
+        background-color: aqua;
+        border: 30px;
+        max-width: 300px;
+        max-height: 300px;
+       }
+    </style>
+</head>
+<body><CENTER><H1>POSTS</H1>
+    <form method="POST">
+        <lable for="">title:</lable><br>
+        <input name="title"    type="text" placeholder="title"><br>
+        <lable for="">content:</lable><br>
+        <input name="content"   type="text" placeholder="content"><br>
+        <lable for="">slug:</lable><br>
+        <input name="slug" type="text" placeholder="slug"><br><br>
+        <button>submit</button>
+        </form></CENTER>
+</body>
+</html>                  addpost
+[3:07 pm, 27/03/2024] Karri Na Mad ☻️☻️(Gurram): <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="POST">
+        <lable for="">title:</lable>
+        <input name="title"    type="text" value="{{post[1]}}"><br>
+        <lable for="">content:</lable>
+        <textarea name="content" rows="5">{{post[2]}}</textarea><br>
+        <lable for="">slug:</lable>
+        <input name="slug" type="text" value="{{ post[4] }}"><br><br>
+        <button>UPDATE</button>
+         </form>
+</body>
+</html>          
